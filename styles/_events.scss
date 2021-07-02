@@ -1,0 +1,144 @@
+#stats {
+    .icons {
+        font-size: 4em;
+        color: $secondary-color;
+        padding-bottom: 0.5rem;
+    }
+    .title-stats {
+        font-size: 22px;
+    }
+    .col-md-2 {
+        text-align: center;
+    }
+}
+
+#packages-biv, #packages-ebec, #packages-oc {
+    .check {
+        color: green;
+    }
+    .not-check {
+        color: red;
+    }
+    table { 
+        tbody tr {
+            &:nth-child(odd) {
+                background-color: $secondary-color-table;
+            }
+        }
+        thead tr {
+            background-color: $primary-color-table;
+        }
+    }
+}
+
+#partners-biv, #partners-ebec, #partners-oc {
+    .title {
+        color: white;
+    }
+    background: $primary-color;
+    .card {
+        min-height: 100px;
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        transition: all .2s ease-in-out;
+        &:hover {
+            background-color: rgba(255, 255, 255, 1) !important;
+            transform: scale(1.1, 1.1);
+        }
+        padding: 0 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .big {
+        @include ImageCenterMaxHeight(100px);
+    }
+    img {
+        padding: 1em;
+    }
+    .logo-smaller {
+        height: 80px;
+    }
+}
+
+#events-biv, #events-ebec, #events-oc {
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/biv-activities.jpg) no-repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    img {
+        @include ImageCenter(300px);
+    }
+    .courses {
+        width: 400px;
+        margin: 46px auto 46px auto;
+        height: auto;
+    }
+    .title {
+        color: #f7f7f7;
+    }
+    .card {
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: #ffffff;
+        }
+    }
+}
+
+#testimonies {
+    .bubble {
+        position: relative;
+        background: $primary-color;
+        color: white;
+        border-radius: .4em;
+        padding: 1rem;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            &:after {
+                border-right-color: $primary-color-hover;
+            }
+            background: $primary-color-hover;
+        }
+    }
+    
+    .bubble:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 65px solid transparent;
+        border-right-color: $primary-color;
+        border-left: 0;
+        border-bottom: 0;
+        margin-top: -32.5px;
+        margin-left: -65px;
+    }
+    .center {
+        margin: 0 auto;
+    }
+}
+
+#booklet {
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/biv-booklet.jpg) repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    .cover-card {
+        background: rgba(255, 255, 255, 0.8);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #stats {
+        .col-md-3 {
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+}

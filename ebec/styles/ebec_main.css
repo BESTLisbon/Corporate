@@ -1,0 +1,359 @@
+header {
+  margin-bottom: 4.7em;
+}
+
+header nav {
+  background-color: rgba(238, 162, 37, 0.9) !important;
+}
+
+header nav li:hover {
+  border-bottom: 2px solid wheat;
+}
+
+header nav li a {
+  color: white !important;
+}
+
+header nav li a:hover {
+  color: wheat !important;
+}
+
+header nav li .active {
+  color: wheat !important;
+  border-bottom: 2px solid wheat;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#best-sponsors {
+  background-color: #bebebe;
+}
+
+#best-sponsors img, #best-sponsors .contact-us {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#best-sponsors img:hover, #best-sponsors .contact-us:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+#team .mail {
+  text-decoration: none;
+}
+
+#team .linkedin {
+  text-decoration: none;
+}
+
+#booklet .booklet-pdf {
+  max-width: 100%;
+  min-width: 60%;
+  max-height: 700px;
+  min-height: 600px;
+}
+
+footer img, footer .contact-us {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+footer img:hover, footer .contact-us:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.btn-primary {
+  background: rgba(238, 162, 37, 0.9) !important;
+  border-color: rgba(238, 162, 37, 0.9) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  background: rgba(128, 83, 10, 0.9) !important;
+  border-color: rgba(128, 83, 10, 0.9) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#stats .icons {
+  font-size: 4em;
+  color: #666666;
+  padding-bottom: 0.5rem;
+}
+
+#stats .title-stats {
+  font-size: 22px;
+}
+
+#stats .col-md-2 {
+  text-align: center;
+}
+
+#packages-biv .check, #packages-ebec .check, #packages-oc .check {
+  color: green;
+}
+
+#packages-biv .not-check, #packages-ebec .not-check, #packages-oc .not-check {
+  color: red;
+}
+
+#packages-biv table tbody tr:nth-child(odd), #packages-ebec table tbody tr:nth-child(odd), #packages-oc table tbody tr:nth-child(odd) {
+  background-color: rgba(102, 102, 102, 0.2);
+}
+
+#packages-biv table thead tr, #packages-ebec table thead tr, #packages-oc table thead tr {
+  background-color: rgba(255, 154, 0, 0.2);
+}
+
+#partners-biv, #partners-ebec, #partners-oc {
+  background: rgba(238, 162, 37, 0.9);
+}
+
+#partners-biv .title, #partners-ebec .title, #partners-oc .title {
+  color: white;
+}
+
+#partners-biv .card, #partners-ebec .card, #partners-oc .card {
+  min-height: 100px;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  padding: 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#partners-biv .card:hover, #partners-ebec .card:hover, #partners-oc .card:hover {
+  background-color: white !important;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+#partners-biv .big, #partners-ebec .big, #partners-oc .big {
+  margin: 0 auto;
+  max-height: 100px;
+  width: auto;
+  max-width: 100%;
+}
+
+#partners-biv img, #partners-ebec img, #partners-oc img {
+  padding: 1em;
+}
+
+#partners-biv .logo-smaller, #partners-ebec .logo-smaller, #partners-oc .logo-smaller {
+  height: 80px;
+}
+
+#events-biv, #events-ebec, #events-oc {
+  background: url(../images/biv-activities.jpg) no-repeat center center/cover;
+  position: relative;
+  z-index: 1;
+}
+
+#events-biv:before, #events-ebec:before, #events-oc:before {
+  background-color: rgba(128, 83, 10, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  content: "";
+  z-index: -1;
+}
+
+#events-biv img, #events-ebec img, #events-oc img {
+  margin: 0 auto;
+  max-height: 300px;
+  width: auto;
+  max-width: 100%;
+}
+
+#events-biv .courses, #events-ebec .courses, #events-oc .courses {
+  width: 400px;
+  margin: 46px auto 46px auto;
+  height: auto;
+}
+
+#events-biv .title, #events-ebec .title, #events-oc .title {
+  color: #f7f7f7;
+}
+
+#events-biv .card, #events-ebec .card, #events-oc .card {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#events-biv .card:hover, #events-ebec .card:hover, #events-oc .card:hover {
+  background-color: #ffffff;
+}
+
+#testimonies .bubble {
+  position: relative;
+  background: rgba(238, 162, 37, 0.9);
+  color: white;
+  border-radius: .4em;
+  padding: 1rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#testimonies .bubble:hover {
+  background: rgba(128, 83, 10, 0.9);
+}
+
+#testimonies .bubble:hover:after {
+  border-right-color: rgba(128, 83, 10, 0.9);
+}
+
+#testimonies .bubble:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 65px solid transparent;
+  border-right-color: rgba(238, 162, 37, 0.9);
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -32.5px;
+  margin-left: -65px;
+}
+
+#testimonies .center {
+  margin: 0 auto;
+}
+
+#booklet {
+  background: url(../images/biv-booklet.jpg) repeat center center/cover;
+  position: relative;
+  z-index: 1;
+}
+
+#booklet:before {
+  background-color: rgba(128, 83, 10, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  content: "";
+  z-index: -1;
+}
+
+#booklet .cover-card {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+  #stats .col-md-3 {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+#cover {
+  background: url(../images/ebec_cover.png) no-repeat center center/cover;
+  position: relative;
+  z-index: 1;
+}
+
+#cover img {
+  margin: 0 auto;
+  max-height: 200px;
+  width: auto;
+  max-width: 100%;
+}
+
+#cover:before {
+  background-color: rgba(128, 83, 10, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  content: "";
+  z-index: -1;
+}
+
+#cover .cover-card {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#cover .btn-secondary {
+  background: #666666 !important;
+  border-color: #666666 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#cover .btn-secondary:hover {
+  background: #333333 !important;
+  border-color: #333333 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#events-ebec {
+  background: url(../images/ebec_activities.jpg) no-repeat center 25%/cover;
+}
+
+#previous-editions {
+  background: url(../images/partners/partners.jpg) repeat center center/cover;
+  position: relative;
+  z-index: 1;
+}
+
+#previous-editions:before {
+  background-color: rgba(128, 83, 10, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  content: "";
+  z-index: -1;
+}
+
+#previous-editions .title {
+  color: white;
+}
+
+#previous-editions .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#previous-editions .container img {
+  margin: 0 auto;
+  max-height: 600px;
+  width: auto;
+  max-width: 100%;
+}
+
+#previous-editions {
+  background: url(../images/prev_ed_ebec.jpg) repeat center 100%/cover;
+}
+
+#booklet {
+  background: url(../images/booklet_ebec.jpg) repeat center center/cover;
+}
+/*# sourceMappingURL=ebec_main.css.map */

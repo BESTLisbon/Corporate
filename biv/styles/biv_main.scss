@@ -1,0 +1,47 @@
+@import './biv_colors';
+@import "../../styles/general";
+@import "../../styles/events";
+
+#cover {
+    img {
+        @include ImageCenter(200px);
+    }
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/biv_cover.jpg) no-repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    .cover-card {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .btn-secondary {
+        background: $secondary-color !important;
+        border-color: $secondary-color !important;
+        box-shadow: none !important;
+        &:hover {
+            background: $secondary-color-hover !important;
+            border-color: $secondary-color-hover !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+#previous-editions {
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/prev_ed_biv.jpg) repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    .title {
+        color: white;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        img {
+            @include ImageCenterMaxHeight(600px);
+        }
+    }
+}

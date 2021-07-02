@@ -1,0 +1,96 @@
+@import './leoe_colors';
+@import "../../styles/general";
+@import "../../styles/events";
+
+#cover {
+    img {
+        @include ImageCenter(200px);
+    }
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/leoe_cover.jpg) no-repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    .cover-card {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .btn-secondary {
+        background: $secondary-color !important;
+        border-color: $secondary-color !important;
+        box-shadow: none !important;
+        &:hover {
+            background: $secondary-color-hover !important;
+            border-color: $secondary-color-hover !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+#leoe-2021 {
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/leoe2021/leoe2021_2.jpg) no-repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    h1 {
+        color: white;
+    }
+    .card {
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: #ffffff;
+        }
+    }
+}
+
+#events-leoe {
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/leoe-participate.jpg) no-repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    h1 {
+        color: white;
+    }
+    .card {
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: #ffffff;
+        }
+    }
+}
+
+#previous-editions {
+    &:before {
+        @include backgroundImg($primary-color-hover);
+    }
+    background: url(../images/previous-editions/prev-ed-leoe.jpg) repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    .title {
+        color: white;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        img {
+            @include ImageCenterMaxHeight(600px);
+        }
+    }
+}
+
+#stats {
+    .icons {
+        font-size: 4em;
+        color: $primary-color;
+        padding-bottom: 0.5rem;
+    }
+    .title-stats {
+        font-size: 22px;
+    }
+}

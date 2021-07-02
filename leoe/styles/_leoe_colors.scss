@@ -1,0 +1,6 @@
+$primary-color: rgba(57, 94, 105, 0.9);
+$primary-color-hover: scale-color($primary-color, $lightness: -50%);
+$secondary-color: rgb(104, 159, 174);
+$secondary-color-hover: scale-color($secondary-color, $lightness: -50%);
+$primary-color-table: rgba(255, 154, 0, 0.2);
+$secondary-color-table: rgba(102, 102, 102, 0.2);
