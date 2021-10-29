@@ -82,7 +82,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #stats .icons {
-  font-size: 4em;
+  font-size: 3em;
   color: #d9a87e;
   padding-bottom: 0.5rem;
 }
@@ -95,35 +95,73 @@ footer img:hover, footer .contact-us:hover {
   text-align: center;
 }
 
-#packages-biv .check, #packages-ebec .check, #packages-oc .check {
+#packages-biv .check,
+#packages-ebec .check,
+#packages-oc .check {
   color: green;
 }
 
-#packages-biv .not-check, #packages-ebec .not-check, #packages-oc .not-check {
+#packages-biv .not-check,
+#packages-ebec .not-check,
+#packages-oc .not-check {
   color: red;
 }
 
-#packages-biv table tbody tr:nth-child(odd), #packages-ebec table tbody tr:nth-child(odd), #packages-oc table tbody tr:nth-child(odd) {
+#packages-biv table tbody tr:nth-child(odd),
+#packages-ebec table tbody tr:nth-child(odd),
+#packages-oc table tbody tr:nth-child(odd) {
   background-color: rgba(217, 168, 126, 0.7);
 }
 
-#packages-biv table thead tr, #packages-ebec table thead tr, #packages-oc table thead tr {
+#packages-biv table thead tr,
+#packages-ebec table thead tr,
+#packages-oc table thead tr {
   background-color: rgba(1, 21, 38, 0.2);
 }
 
-#partners-biv, #partners-ebec, #partners-oc {
+#packages-biv .check,
+#packages-ebec .check,
+#packages-oc .check {
+  color: green;
+}
+
+#packages-biv .not-check,
+#packages-ebec .not-check,
+#packages-oc .not-check {
+  color: red;
+}
+
+#packages-biv table tbody tr:nth-child(odd),
+#packages-ebec table tbody tr:nth-child(odd),
+#packages-oc table tbody tr:nth-child(odd) {
+  background-color: rgba(217, 168, 126, 0.7);
+}
+
+#packages-biv table thead tr,
+#packages-ebec table thead tr,
+#packages-oc table thead tr {
+  background-color: rgba(1, 21, 38, 0.2);
+}
+
+#partners-biv,
+#partners-ebec,
+#partners-oc {
   background: rgba(1, 21, 38, 0.9);
 }
 
-#partners-biv .title, #partners-ebec .title, #partners-oc .title {
+#partners-biv .title,
+#partners-ebec .title,
+#partners-oc .title {
   color: white;
 }
 
-#partners-biv .card, #partners-ebec .card, #partners-oc .card {
+#partners-biv .card,
+#partners-ebec .card,
+#partners-oc .card {
   min-height: 100px;
   background-color: rgba(255, 255, 255, 0.8) !important;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   padding: 0 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,34 +174,46 @@ footer img:hover, footer .contact-us:hover {
           align-items: center;
 }
 
-#partners-biv .card:hover, #partners-ebec .card:hover, #partners-oc .card:hover {
+#partners-biv .card:hover,
+#partners-ebec .card:hover,
+#partners-oc .card:hover {
   background-color: white !important;
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
 
-#partners-biv .big, #partners-ebec .big, #partners-oc .big {
+#partners-biv .big,
+#partners-ebec .big,
+#partners-oc .big {
   margin: 0 auto;
   max-height: 100px;
   width: auto;
   max-width: 100%;
 }
 
-#partners-biv img, #partners-ebec img, #partners-oc img {
+#partners-biv img,
+#partners-ebec img,
+#partners-oc img {
   padding: 1em;
 }
 
-#partners-biv .logo-smaller, #partners-ebec .logo-smaller, #partners-oc .logo-smaller {
+#partners-biv .logo-smaller,
+#partners-ebec .logo-smaller,
+#partners-oc .logo-smaller {
   height: 80px;
 }
 
-#events-biv, #events-ebec, #events-oc {
+#events-biv,
+#events-ebec,
+#events-oc {
   background: url(../images/biv-activities.jpg) no-repeat center center/cover;
   position: relative;
   z-index: 1;
 }
 
-#events-biv:before, #events-ebec:before, #events-oc:before {
+#events-biv:before,
+#events-ebec:before,
+#events-oc:before {
   background-color: rgba(1, 11, 19, 0.9);
   position: absolute;
   top: 0;
@@ -175,30 +225,40 @@ footer img:hover, footer .contact-us:hover {
   z-index: -1;
 }
 
-#events-biv img, #events-ebec img, #events-oc img {
+#events-biv img,
+#events-ebec img,
+#events-oc img {
   margin: 0 auto;
   max-height: 300px;
   width: auto;
   max-width: 100%;
 }
 
-#events-biv .courses, #events-ebec .courses, #events-oc .courses {
+#events-biv .courses,
+#events-ebec .courses,
+#events-oc .courses {
   width: 400px;
   margin: 46px auto 46px auto;
   height: auto;
 }
 
-#events-biv .title, #events-ebec .title, #events-oc .title {
+#events-biv .title,
+#events-ebec .title,
+#events-oc .title {
   color: #f7f7f7;
 }
 
-#events-biv .card, #events-ebec .card, #events-oc .card {
+#events-biv .card,
+#events-ebec .card,
+#events-oc .card {
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-#events-biv .card:hover, #events-ebec .card:hover, #events-oc .card:hover {
+#events-biv .card:hover,
+#events-ebec .card:hover,
+#events-oc .card:hover {
   background-color: #ffffff;
 }
 
@@ -206,7 +266,7 @@ footer img:hover, footer .contact-us:hover {
   position: relative;
   background: rgba(1, 21, 38, 0.9);
   color: white;
-  border-radius: .4em;
+  border-radius: 0.4em;
   padding: 1rem;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -221,7 +281,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #testimonies .bubble:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;

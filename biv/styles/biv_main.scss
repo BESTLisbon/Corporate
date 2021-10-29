@@ -1,7 +1,8 @@
-@import './biv_colors';
+@import "./biv_colors";
 @import "../../styles/general";
 @import "../../styles/events";
 
+//Sections
 #cover {
     img {
         @include ImageCenter(200px);
@@ -27,6 +28,48 @@
     }
 }
 
+#events-biv {
+    .card-img-top {
+        object-fit: cover;
+        width: 100%;
+    }
+    .card {
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        height: 100%;
+    }
+    .card-in-card {
+        &:hover {
+            transform: scale(1.03);
+        }
+        height: 100%;
+    }
+    .card-text {
+        font-size: 110%;
+    }
+}
+
+#stats {
+    .icons {
+        margin: 0.5rem;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    .flex-row {
+        max-width: 100%;
+    }
+
+    .arround-icon {
+        max-width: 110px;
+        min-width: 110px;
+    }
+
+    .col-md-6 {
+        margin-bottom: 1em;
+    }
+}
 #previous-editions {
     &:before {
         @include backgroundImg($primary-color-hover);
@@ -45,3 +88,85 @@
         }
     }
 }
+
+#packages-biv {
+    .check {
+        color: green;
+    }
+    .not-check {
+        color: red;
+    }
+    table {
+        font-weight: bold;
+        tbody th,
+        td {
+            border-right: 2px solid $primary-color;
+            border-left: 2px solid $primary-color;
+        }
+        tbody tr {
+            &:nth-child(odd) {
+                background-color: rgb(247, 247, 247);
+            }
+        }
+        thead tr {
+            background-color: $primary-color;
+            color: rgb(247, 247, 247);
+        }
+    }
+    .table-day {
+        th,
+        td {
+            background-color: rgba(1, 62, 119, 0.3);
+        }
+    }
+    .table-promotion {
+        th,
+        td {
+            background-color: rgba(1, 62, 119, 0.2);
+        }
+    }
+    .table-rt {
+        th,
+        td {
+            background-color: rgba(1, 62, 119, 0.12);
+        }
+    }
+    .table-cv {
+        th,
+        td {
+            background-color: rgba(1, 62, 119, 0.09);
+        }
+    }
+    .table-prices {
+        th,
+        td {
+            background-color: rgba(255, 153, 0, 0.3);
+        }
+    }
+    .table-final-prices {
+        th,
+        td {
+            border-bottom: 2px solid $primary-color;
+            background-color: rgba(255, 153, 0, 0.534);
+        }
+    }
+}
+#team {
+    background-color: $primary-color;
+    color: white;
+    a {
+        color: $secondary-color;
+        &:hover {
+            color: white;
+        }
+    }
+    .linkedin {
+        img {
+            border-radius: 10%;
+            background-color: rgb(247, 247, 247);
+            max-width: 30px;
+        }
+    }
+}
+
+//Breakpoints

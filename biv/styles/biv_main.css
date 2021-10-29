@@ -82,7 +82,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #stats .icons {
-  font-size: 4em;
+  font-size: 3em;
   color: #ff9a00;
   padding-bottom: 0.5rem;
 }
@@ -95,35 +95,73 @@ footer img:hover, footer .contact-us:hover {
   text-align: center;
 }
 
-#packages-biv .check, #packages-ebec .check, #packages-oc .check {
+#packages-biv .check,
+#packages-ebec .check,
+#packages-oc .check {
   color: green;
 }
 
-#packages-biv .not-check, #packages-ebec .not-check, #packages-oc .not-check {
+#packages-biv .not-check,
+#packages-ebec .not-check,
+#packages-oc .not-check {
   color: red;
 }
 
-#packages-biv table tbody tr:nth-child(odd), #packages-ebec table tbody tr:nth-child(odd), #packages-oc table tbody tr:nth-child(odd) {
+#packages-biv table tbody tr:nth-child(odd),
+#packages-ebec table tbody tr:nth-child(odd),
+#packages-oc table tbody tr:nth-child(odd) {
   background-color: rgba(255, 154, 0, 0.2);
 }
 
-#packages-biv table thead tr, #packages-ebec table thead tr, #packages-oc table thead tr {
+#packages-biv table thead tr,
+#packages-ebec table thead tr,
+#packages-oc table thead tr {
   background-color: rgba(1, 61, 119, 0.2);
 }
 
-#partners-biv, #partners-ebec, #partners-oc {
+#packages-biv .check,
+#packages-ebec .check,
+#packages-oc .check {
+  color: green;
+}
+
+#packages-biv .not-check,
+#packages-ebec .not-check,
+#packages-oc .not-check {
+  color: red;
+}
+
+#packages-biv table tbody tr:nth-child(odd),
+#packages-ebec table tbody tr:nth-child(odd),
+#packages-oc table tbody tr:nth-child(odd) {
+  background-color: rgba(255, 154, 0, 0.2);
+}
+
+#packages-biv table thead tr,
+#packages-ebec table thead tr,
+#packages-oc table thead tr {
+  background-color: rgba(1, 61, 119, 0.2);
+}
+
+#partners-biv,
+#partners-ebec,
+#partners-oc {
   background: rgba(1, 61, 119, 0.9);
 }
 
-#partners-biv .title, #partners-ebec .title, #partners-oc .title {
+#partners-biv .title,
+#partners-ebec .title,
+#partners-oc .title {
   color: white;
 }
 
-#partners-biv .card, #partners-ebec .card, #partners-oc .card {
+#partners-biv .card,
+#partners-ebec .card,
+#partners-oc .card {
   min-height: 100px;
   background-color: rgba(255, 255, 255, 0.8) !important;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   padding: 0 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,34 +174,46 @@ footer img:hover, footer .contact-us:hover {
           align-items: center;
 }
 
-#partners-biv .card:hover, #partners-ebec .card:hover, #partners-oc .card:hover {
+#partners-biv .card:hover,
+#partners-ebec .card:hover,
+#partners-oc .card:hover {
   background-color: white !important;
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
 
-#partners-biv .big, #partners-ebec .big, #partners-oc .big {
+#partners-biv .big,
+#partners-ebec .big,
+#partners-oc .big {
   margin: 0 auto;
   max-height: 100px;
   width: auto;
   max-width: 100%;
 }
 
-#partners-biv img, #partners-ebec img, #partners-oc img {
+#partners-biv img,
+#partners-ebec img,
+#partners-oc img {
   padding: 1em;
 }
 
-#partners-biv .logo-smaller, #partners-ebec .logo-smaller, #partners-oc .logo-smaller {
+#partners-biv .logo-smaller,
+#partners-ebec .logo-smaller,
+#partners-oc .logo-smaller {
   height: 80px;
 }
 
-#events-biv, #events-ebec, #events-oc {
+#events-biv,
+#events-ebec,
+#events-oc {
   background: url(../images/biv-activities.jpg) no-repeat center center/cover;
   position: relative;
   z-index: 1;
 }
 
-#events-biv:before, #events-ebec:before, #events-oc:before {
+#events-biv:before,
+#events-ebec:before,
+#events-oc:before {
   background-color: rgba(1, 31, 60, 0.9);
   position: absolute;
   top: 0;
@@ -175,30 +225,40 @@ footer img:hover, footer .contact-us:hover {
   z-index: -1;
 }
 
-#events-biv img, #events-ebec img, #events-oc img {
+#events-biv img,
+#events-ebec img,
+#events-oc img {
   margin: 0 auto;
   max-height: 300px;
   width: auto;
   max-width: 100%;
 }
 
-#events-biv .courses, #events-ebec .courses, #events-oc .courses {
+#events-biv .courses,
+#events-ebec .courses,
+#events-oc .courses {
   width: 400px;
   margin: 46px auto 46px auto;
   height: auto;
 }
 
-#events-biv .title, #events-ebec .title, #events-oc .title {
+#events-biv .title,
+#events-ebec .title,
+#events-oc .title {
   color: #f7f7f7;
 }
 
-#events-biv .card, #events-ebec .card, #events-oc .card {
+#events-biv .card,
+#events-ebec .card,
+#events-oc .card {
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-#events-biv .card:hover, #events-ebec .card:hover, #events-oc .card:hover {
+#events-biv .card:hover,
+#events-ebec .card:hover,
+#events-oc .card:hover {
   background-color: #ffffff;
 }
 
@@ -206,7 +266,7 @@ footer img:hover, footer .contact-us:hover {
   position: relative;
   background: rgba(1, 61, 119, 0.9);
   color: white;
-  border-radius: .4em;
+  border-radius: 0.4em;
   padding: 1rem;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -221,7 +281,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #testimonies .bubble:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -311,6 +371,52 @@ footer img:hover, footer .contact-us:hover {
           box-shadow: none !important;
 }
 
+#events-biv .card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+#events-biv .card {
+  height: 100%;
+}
+
+#events-biv .card:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#events-biv .card-in-card {
+  height: 100%;
+}
+
+#events-biv .card-in-card:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+#events-biv .card-text {
+  font-size: 110%;
+}
+
+#stats .icons {
+  margin: 0.5rem;
+  padding: 0;
+  font-size: 4rem;
+}
+
+#stats .flex-row {
+  max-width: 100%;
+}
+
+#stats .arround-icon {
+  max-width: 110px;
+  min-width: 110px;
+}
+
+#stats .col-md-6 {
+  margin-bottom: 1em;
+}
+
 #previous-editions {
   background: url(../images/prev_ed_biv.jpg) repeat center center/cover;
   position: relative;
@@ -343,5 +449,82 @@ footer img:hover, footer .contact-us:hover {
   max-height: 600px;
   width: auto;
   max-width: 100%;
+}
+
+#packages-biv .check {
+  color: green;
+}
+
+#packages-biv .not-check {
+  color: red;
+}
+
+#packages-biv table {
+  font-weight: bold;
+}
+
+#packages-biv table tbody th,
+#packages-biv table td {
+  border-right: 2px solid rgba(1, 61, 119, 0.9);
+  border-left: 2px solid rgba(1, 61, 119, 0.9);
+}
+
+#packages-biv table tbody tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+#packages-biv table thead tr {
+  background-color: rgba(1, 61, 119, 0.9);
+  color: #f7f7f7;
+}
+
+#packages-biv .table-day th,
+#packages-biv .table-day td {
+  background-color: rgba(1, 62, 119, 0.3);
+}
+
+#packages-biv .table-promotion th,
+#packages-biv .table-promotion td {
+  background-color: rgba(1, 62, 119, 0.2);
+}
+
+#packages-biv .table-rt th,
+#packages-biv .table-rt td {
+  background-color: rgba(1, 62, 119, 0.12);
+}
+
+#packages-biv .table-cv th,
+#packages-biv .table-cv td {
+  background-color: rgba(1, 62, 119, 0.09);
+}
+
+#packages-biv .table-prices th,
+#packages-biv .table-prices td {
+  background-color: rgba(255, 153, 0, 0.3);
+}
+
+#packages-biv .table-final-prices th,
+#packages-biv .table-final-prices td {
+  border-bottom: 2px solid rgba(1, 61, 119, 0.9);
+  background-color: rgba(255, 153, 0, 0.534);
+}
+
+#team {
+  background-color: rgba(1, 61, 119, 0.9);
+  color: white;
+}
+
+#team a {
+  color: #ff9a00;
+}
+
+#team a:hover {
+  color: white;
+}
+
+#team .linkedin img {
+  border-radius: 10%;
+  background-color: #f7f7f7;
+  max-width: 30px;
 }
 /*# sourceMappingURL=biv_main.css.map */
