@@ -98,7 +98,7 @@ body {
 
     h4,
     p {
-        color: black;
+        color: rgb(36, 40, 43);
         font-weight: bold;
     }
     .icons {
@@ -209,25 +209,32 @@ body {
     }
 }
 
-#testimonies {
+#partners-biv {
     background-color: $primary-color;
+    padding-bottom: 1rem;
+    .testemonies {
+        p {
+            color: white;
+            font-size: large;
+        }
+    }
+    .title {
+        color: $secondary-color;
+        font-weight: bold;
+    }
+    .inside-carousel {
+        max-width: 800px;
+        margin: auto;
+        text-align: justify;
+    }
 }
 #team {
-    background-color: $primary-color;
-    color: white;
-    a {
-        color: $secondary-color;
-        &:hover {
-            color: white;
-        }
+    .title {
+        color: $primary-color;
+        font-weight: bold;
     }
-    .linkedin {
-        img {
-            border-radius: 10%;
-            background-color: rgb(247, 247, 247);
-            max-width: 30px;
-        }
-    }
+    background-color: white;
+    color: rgb(36, 40, 43);
 }
 
 //Breakpoints

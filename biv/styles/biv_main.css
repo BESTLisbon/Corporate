@@ -426,7 +426,7 @@ body {
 
 #stats h4,
 #stats p {
-  color: black;
+  color: #24282b;
   font-weight: bold;
 }
 
@@ -553,26 +553,34 @@ body {
   background-color: #124274;
 }
 
-#testimonies {
+#partners-biv {
   background-color: #124274;
+  padding-bottom: 1rem;
+}
+
+#partners-biv .testemonies p {
+  color: white;
+  font-size: large;
+}
+
+#partners-biv .title {
+  color: #f89920;
+  font-weight: bold;
+}
+
+#partners-biv .inside-carousel {
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
 }
 
 #team {
-  background-color: #124274;
-  color: white;
+  background-color: white;
+  color: #24282b;
 }
 
-#team a {
-  color: #f89920;
-}
-
-#team a:hover {
-  color: white;
-}
-
-#team .linkedin img {
-  border-radius: 10%;
-  background-color: #f7f7f7;
-  max-width: 30px;
+#team .title {
+  color: #124274;
+  font-weight: bold;
 }
 /*# sourceMappingURL=biv_main.css.map */
