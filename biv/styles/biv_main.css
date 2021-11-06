@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap");
 header {
   margin-bottom: 4.7em;
 }
 
 header nav {
-  background-color: rgba(1, 61, 119, 0.9) !important;
+  background-color: #004aad !important;
 }
 
 header nav li:hover {
@@ -68,15 +70,15 @@ footer img:hover, footer .contact-us:hover {
 }
 
 .btn-primary {
-  background: rgba(1, 61, 119, 0.9) !important;
-  border-color: rgba(1, 61, 119, 0.9) !important;
+  background: #004aad !important;
+  border-color: #004aad !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
 .btn-primary:hover {
-  background: rgba(1, 31, 60, 0.9) !important;
-  border-color: rgba(1, 31, 60, 0.9) !important;
+  background: #002557 !important;
+  border-color: #002557 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
@@ -146,7 +148,7 @@ footer img:hover, footer .contact-us:hover {
 #partners-biv,
 #partners-ebec,
 #partners-oc {
-  background: rgba(1, 61, 119, 0.9);
+  background: #004aad;
 }
 
 #partners-biv .title,
@@ -214,7 +216,7 @@ footer img:hover, footer .contact-us:hover {
 #events-biv:before,
 #events-ebec:before,
 #events-oc:before {
-  background-color: rgba(1, 31, 60, 0.9);
+  background-color: #002557;
   position: absolute;
   top: 0;
   left: 0;
@@ -264,7 +266,7 @@ footer img:hover, footer .contact-us:hover {
 
 #testimonies .bubble {
   position: relative;
-  background: rgba(1, 61, 119, 0.9);
+  background: #004aad;
   color: white;
   border-radius: 0.4em;
   padding: 1rem;
@@ -273,11 +275,11 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #testimonies .bubble:hover {
-  background: rgba(1, 31, 60, 0.9);
+  background: #002557;
 }
 
 #testimonies .bubble:hover:after {
-  border-right-color: rgba(1, 31, 60, 0.9);
+  border-right-color: #002557;
 }
 
 #testimonies .bubble:after {
@@ -288,7 +290,7 @@ footer img:hover, footer .contact-us:hover {
   width: 0;
   height: 0;
   border: 65px solid transparent;
-  border-right-color: rgba(1, 61, 119, 0.9);
+  border-right-color: #004aad;
   border-left: 0;
   border-bottom: 0;
   margin-top: -32.5px;
@@ -306,7 +308,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #booklet:before {
-  background-color: rgba(1, 31, 60, 0.9);
+  background-color: #002557;
   position: absolute;
   top: 0;
   left: 0;
@@ -329,46 +331,45 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #cover {
-  background: url(../images/biv_cover.jpg) no-repeat center center/cover;
-  position: relative;
-  z-index: 1;
+  background-color: #004aad;
 }
 
-#cover img {
-  margin: 0 auto;
-  max-height: 200px;
-  width: auto;
-  max-width: 100%;
+#cover .container {
+  height: auto;
 }
 
-#cover:before {
-  background-color: rgba(1, 31, 60, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  content: "";
-  z-index: -1;
+#cover .container .banner {
+  font-family: "Oswald", sans-serif;
 }
 
-#cover .cover-card {
-  background-color: rgba(255, 255, 255, 0.8);
+#cover .container .banner h1 {
+  margin-bottom: -1.5%;
+  color: #ff9a00;
+  font-size: 8vw;
 }
 
-#cover .btn-secondary {
-  background: #ff9a00 !important;
-  border-color: #ff9a00 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+#cover .container .banner h3 {
+  margin: 0;
+  color: white;
+  font-size: 2.5vw;
 }
 
-#cover .btn-secondary:hover {
-  background: #804d00 !important;
-  border-color: #804d00 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+#cover .container .banner .titles h3 {
+  color: #ff9a00;
+}
+
+#cover .container .banner .vl {
+  margin: auto;
+  width: 1px;
+  border-left: 2px solid #ff9a00;
+  border-right: 2px solid #ff9a00;
+  height: 3vw;
+}
+
+#cover .container .disclaimer {
+  font-family: "Oswald", sans-serif;
+  margin-top: 7em;
+  color: white;
 }
 
 #events-biv .card-img-top {
@@ -424,7 +425,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #previous-editions:before {
-  background-color: rgba(1, 31, 60, 0.9);
+  background-color: #002557;
   position: absolute;
   top: 0;
   left: 0;
@@ -465,8 +466,8 @@ footer img:hover, footer .contact-us:hover {
 
 #packages-biv table tbody th,
 #packages-biv table td {
-  border-right: 2px solid rgba(1, 61, 119, 0.9);
-  border-left: 2px solid rgba(1, 61, 119, 0.9);
+  border-right: 2px solid #004aad;
+  border-left: 2px solid #004aad;
 }
 
 #packages-biv table tbody tr:nth-child(odd) {
@@ -474,7 +475,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #packages-biv table thead tr {
-  background-color: rgba(1, 61, 119, 0.9);
+  background-color: #004aad;
   color: #f7f7f7;
 }
 
@@ -505,12 +506,12 @@ footer img:hover, footer .contact-us:hover {
 
 #packages-biv .table-final-prices th,
 #packages-biv .table-final-prices td {
-  border-bottom: 2px solid rgba(1, 61, 119, 0.9);
+  border-bottom: 2px solid #004aad;
   background-color: rgba(255, 153, 0, 0.534);
 }
 
 #team {
-  background-color: rgba(1, 61, 119, 0.9);
+  background-color: #004aad;
   color: white;
 }
 
