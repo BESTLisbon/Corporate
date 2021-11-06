@@ -95,49 +95,41 @@ footer img:hover, footer .contact-us:hover {
   text-align: center;
 }
 
-#packages-biv .check,
 #packages-ebec .check,
 #packages-oc .check {
   color: green;
 }
 
-#packages-biv .not-check,
 #packages-ebec .not-check,
 #packages-oc .not-check {
   color: red;
 }
 
-#packages-biv table tbody tr:nth-child(odd),
 #packages-ebec table tbody tr:nth-child(odd),
 #packages-oc table tbody tr:nth-child(odd) {
   background-color: rgba(102, 102, 102, 0.2);
 }
 
-#packages-biv table thead tr,
 #packages-ebec table thead tr,
 #packages-oc table thead tr {
   background-color: rgba(255, 154, 0, 0.2);
 }
 
-#packages-biv .check,
 #packages-ebec .check,
 #packages-oc .check {
   color: green;
 }
 
-#packages-biv .not-check,
 #packages-ebec .not-check,
 #packages-oc .not-check {
   color: red;
 }
 
-#packages-biv table tbody tr:nth-child(odd),
 #packages-ebec table tbody tr:nth-child(odd),
 #packages-oc table tbody tr:nth-child(odd) {
   background-color: rgba(102, 102, 102, 0.2);
 }
 
-#packages-biv table thead tr,
 #packages-ebec table thead tr,
 #packages-oc table thead tr {
   background-color: rgba(255, 154, 0, 0.2);
