@@ -203,7 +203,6 @@ footer img:hover, footer .contact-us:hover {
   height: 80px;
 }
 
-#events-biv,
 #events-ebec,
 #events-oc {
   background: url(../images/biv-activities.jpg) no-repeat center center/cover;
@@ -211,7 +210,6 @@ footer img:hover, footer .contact-us:hover {
   z-index: 1;
 }
 
-#events-biv:before,
 #events-ebec:before,
 #events-oc:before {
   background-color: rgba(128, 83, 10, 0.9);
@@ -225,7 +223,6 @@ footer img:hover, footer .contact-us:hover {
   z-index: -1;
 }
 
-#events-biv img,
 #events-ebec img,
 #events-oc img {
   margin: 0 auto;
@@ -234,7 +231,6 @@ footer img:hover, footer .contact-us:hover {
   max-width: 100%;
 }
 
-#events-biv .courses,
 #events-ebec .courses,
 #events-oc .courses {
   width: 400px;
@@ -242,13 +238,11 @@ footer img:hover, footer .contact-us:hover {
   height: auto;
 }
 
-#events-biv .title,
 #events-ebec .title,
 #events-oc .title {
   color: #f7f7f7;
 }
 
-#events-biv .card,
 #events-ebec .card,
 #events-oc .card {
   background-color: rgba(255, 255, 255, 0.8);
@@ -256,7 +250,6 @@ footer img:hover, footer .contact-us:hover {
   transition: all 0.2s ease-in-out;
 }
 
-#events-biv .card:hover,
 #events-ebec .card:hover,
 #events-oc .card:hover {
   background-color: #ffffff;

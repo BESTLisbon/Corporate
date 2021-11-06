@@ -5,7 +5,7 @@ header {
 }
 
 header nav {
-  background-color: #004aad !important;
+  background-color: #124274 !important;
 }
 
 header nav li:hover {
@@ -70,22 +70,22 @@ footer img:hover, footer .contact-us:hover {
 }
 
 .btn-primary {
-  background: #004aad !important;
-  border-color: #004aad !important;
+  background: #124274 !important;
+  border-color: #124274 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
 .btn-primary:hover {
-  background: #002557 !important;
-  border-color: #002557 !important;
+  background: #09213a !important;
+  border-color: #09213a !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
 #stats .icons {
   font-size: 3em;
-  color: #ff9a00;
+  color: #f89920;
   padding-bottom: 0.5rem;
 }
 
@@ -148,7 +148,7 @@ footer img:hover, footer .contact-us:hover {
 #partners-biv,
 #partners-ebec,
 #partners-oc {
-  background: #004aad;
+  background: #124274;
 }
 
 #partners-biv .title,
@@ -205,7 +205,6 @@ footer img:hover, footer .contact-us:hover {
   height: 80px;
 }
 
-#events-biv,
 #events-ebec,
 #events-oc {
   background: url(../images/biv-activities.jpg) no-repeat center center/cover;
@@ -213,10 +212,9 @@ footer img:hover, footer .contact-us:hover {
   z-index: 1;
 }
 
-#events-biv:before,
 #events-ebec:before,
 #events-oc:before {
-  background-color: #002557;
+  background-color: #09213a;
   position: absolute;
   top: 0;
   left: 0;
@@ -227,7 +225,6 @@ footer img:hover, footer .contact-us:hover {
   z-index: -1;
 }
 
-#events-biv img,
 #events-ebec img,
 #events-oc img {
   margin: 0 auto;
@@ -236,7 +233,6 @@ footer img:hover, footer .contact-us:hover {
   max-width: 100%;
 }
 
-#events-biv .courses,
 #events-ebec .courses,
 #events-oc .courses {
   width: 400px;
@@ -244,13 +240,11 @@ footer img:hover, footer .contact-us:hover {
   height: auto;
 }
 
-#events-biv .title,
 #events-ebec .title,
 #events-oc .title {
   color: #f7f7f7;
 }
 
-#events-biv .card,
 #events-ebec .card,
 #events-oc .card {
   background-color: rgba(255, 255, 255, 0.8);
@@ -258,7 +252,6 @@ footer img:hover, footer .contact-us:hover {
   transition: all 0.2s ease-in-out;
 }
 
-#events-biv .card:hover,
 #events-ebec .card:hover,
 #events-oc .card:hover {
   background-color: #ffffff;
@@ -266,7 +259,7 @@ footer img:hover, footer .contact-us:hover {
 
 #testimonies .bubble {
   position: relative;
-  background: #004aad;
+  background: #124274;
   color: white;
   border-radius: 0.4em;
   padding: 1rem;
@@ -275,11 +268,11 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #testimonies .bubble:hover {
-  background: #002557;
+  background: #09213a;
 }
 
 #testimonies .bubble:hover:after {
-  border-right-color: #002557;
+  border-right-color: #09213a;
 }
 
 #testimonies .bubble:after {
@@ -290,7 +283,7 @@ footer img:hover, footer .contact-us:hover {
   width: 0;
   height: 0;
   border: 65px solid transparent;
-  border-right-color: #004aad;
+  border-right-color: #124274;
   border-left: 0;
   border-bottom: 0;
   margin-top: -32.5px;
@@ -308,7 +301,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #booklet:before {
-  background-color: #002557;
+  background-color: #09213a;
   position: absolute;
   top: 0;
   left: 0;
@@ -331,7 +324,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #cover {
-  background-color: #004aad;
+  background-color: #124274;
 }
 
 #cover .container {
@@ -344,7 +337,7 @@ footer img:hover, footer .contact-us:hover {
 
 #cover .container .banner h1 {
   margin-bottom: -1.5%;
-  color: #ff9a00;
+  color: #f89920;
   font-size: 8vw;
 }
 
@@ -355,48 +348,65 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #cover .container .banner .titles h3 {
-  color: #ff9a00;
+  color: #f89920;
 }
 
 #cover .container .banner .vl {
   margin: auto;
   width: 1px;
-  border-left: 2px solid #ff9a00;
-  border-right: 2px solid #ff9a00;
+  border-left: 2px solid #f89920;
+  border-right: 2px solid #f89920;
   height: 3vw;
 }
 
 #cover .container .disclaimer {
-  font-family: "Oswald", sans-serif;
   margin-top: 7em;
   color: white;
 }
 
-#events-biv .card-img-top {
+#cover .container .disclaimer h4 {
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+#events-biv .title {
+  color: #124274;
+}
+
+#events-biv .right-border {
+  border-right: 1.5px solid #124274;
+}
+
+#events-biv .left-border {
+  border-left: 1.5px solid #124274;
+}
+
+#events-biv .img-top {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  border-radius: 10px;
 }
 
 #events-biv .card {
+  border-radius: 10px;
+  color: white;
+  background-color: #124274;
   height: 100%;
 }
 
 #events-biv .card:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-#events-biv .card-in-card {
-  height: 100%;
-}
-
-#events-biv .card-in-card:hover {
+  background-color: #09213a;
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
 }
 
 #events-biv .card-text {
   font-size: 110%;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #stats .icons {
@@ -425,7 +435,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #previous-editions:before {
-  background-color: #002557;
+  background-color: #09213a;
   position: absolute;
   top: 0;
   left: 0;
@@ -466,8 +476,8 @@ footer img:hover, footer .contact-us:hover {
 
 #packages-biv table tbody th,
 #packages-biv table td {
-  border-right: 2px solid #004aad;
-  border-left: 2px solid #004aad;
+  border-right: 2px solid #124274;
+  border-left: 2px solid #124274;
 }
 
 #packages-biv table tbody tr:nth-child(odd) {
@@ -475,7 +485,7 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #packages-biv table thead tr {
-  background-color: #004aad;
+  background-color: #124274;
   color: #f7f7f7;
 }
 
@@ -506,17 +516,17 @@ footer img:hover, footer .contact-us:hover {
 
 #packages-biv .table-final-prices th,
 #packages-biv .table-final-prices td {
-  border-bottom: 2px solid #004aad;
+  border-bottom: 2px solid #124274;
   background-color: rgba(255, 153, 0, 0.534);
 }
 
 #team {
-  background-color: #004aad;
+  background-color: #124274;
   color: white;
 }
 
 #team a {
-  color: #ff9a00;
+  color: #f89920;
 }
 
 #team a:hover {
