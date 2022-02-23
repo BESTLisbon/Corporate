@@ -1,66 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./styles/ebec_main.css" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/ebec_main.css">
+        <script
+            src="https://kit.fontawesome.com/3a0a9df191.js"
+            crossorigin="anonymous"
+        ></script>
 
-    <script src="https://kit.fontawesome.com/3a0a9df191.js" crossorigin="anonymous"></script>
+        <title>EBEC</title>
 
-    <title>EBEC</title>
+        <!--Icon on Tab-->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="images/ico/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/ico/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="images/ico/favicon-16x16.png"
+        />
+        <link rel="manifest" href="images/ico/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
 
-    <!--Icon on Tab-->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
-    <link rel="manifest" href="images/ico/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"
+                        ><img src="../images/best_logo_white.png" height="50"
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="../index.html"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../biv/index.html"
+                                    >BEST Inside View</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    href="../ebec/index.html"
+                                    >EBEC</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../images/best_logo_white.png" height="50"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../biv/index.html">BEST Inside View</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../ebec/index.html">EBEC</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../one-challenge/index.html">ONE Challenge</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../leoe/index.html">LEoE</a>
-                        </li>
-                    </ul>
+        <section id="cover">
+            <div class="container text-center">
+                <img class="logo my-5" src="../images/events-logos/EBEC.svg" />
+                <div class="disclaimer p-2 py-5">
+                    <h2 class="mb-3 fw-bold text-uppercase">
+                        Faça parte da maior competição de engenharia da Europa!
+                    </h2>
+                    <h4 class="fw-normal">
+                        Este evento é conhecido pelo seu formato de 24 horas
+                        contínuas de competição, em que os participantes são
+                        testados em uma de duas categorias:
+                        <b>Innovative Design</b> e <b>Case Study</b>. Ao longo
+                        das 24 horas, entre o Case Study e o Innovative Design
+                        existem 3 <b>mini-competições</b> que podem influenciar
+                        a competição e determinar o vencedor! Além disso,
+                        existem <b>workshops</b> que serão dados antes da
+                        competição começar, de modo a familiarizar os alunos com
+                        a competição em si e com as ferramentas a usar.
+                    </h4>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <section id="cover">
+        </section>
+        <!-- <section id="cover">
         <div class="container text-center py-5">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto cover-card rounded pt-2">
-                    <img src="../images/events-logos/EBEC.svg">
+                    <img src="../images/events-logos/ebec_white.svg">
                     <h1 class="text-center mb-4">Faça parte da maior competição de engenharia da Europa!</h1>
                     <p>A <b>European BEST Engineering Competition (EBEC)</b> é a maior competição
                         universitária de engenharia da Europa.
@@ -74,17 +131,14 @@
                         os alunos com a competição em si e com as ferramentas a usar.
                     </p>
                     <p>
-                        <!--<a href="http://best.tecnico.ulisboa.pt/insideview/index.html"
-                            class="btn btn-primary my-2">Visite o
-                            website da EBEC</a>-->
                         <a href="#booklet" class="btn btn-secondary my-2">Veja o booklet acerca da EBEC</a>
                     </p>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="best-sponsors" class="pt-2 pb-2">
+        <!-- <section id="best-sponsors" class="pt-2 pb-2">
         <div class="container text-center">
             <h1 class="mb-3 text-center">Apoiado por</h1>
             <div class="row">
@@ -110,557 +164,849 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="events-ebec" class="pt-3">
-        <div class="container">
-            <h1 class="title text-center mb-3">Atividades da EBEC</h1>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 offset-lg-2 mb-3">
-                    <div class="card h-100">
-                        <img src="./images/activities/ebec_cs.jpg" class="card-img-top" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title text-center">Case Study</h5>
-                            <p class="card-text">&nbsp; &nbsp;Na categoria de Case Study, as equipas tentam
-                                encontrar soluções criativas e inovadoras para
-                                uma questão técnica ou de gestão, em tempo limitado.
-                                <br>&nbsp; &nbsp;No fim, as equipas apresentam-nas ao
-                                júri, que as avaliam com base em critérios como a abordagem
-                                ao problema e a criatividade.
-                            </p>
+        <section id="events-ebec" class="pt-3">
+            <div class="container justify-content-center">
+                <h2 class="title text-center mb-5 fw-bold text-uppercase">
+                    Atividades da EBEC
+                </h2>
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-6 mb-3">
+                        <div class="card">
+                            <div class="row">
+                                <img
+                                    src="./images/designs/project-management.png"
+                                    class="col-5 ps-5 align-self-center d-none d-sm-block"
+                                    alt=""
+                                />
+                                <div
+                                    class="col-4 card-body d-flex flex-column m-4"
+                                >
+                                    <h4
+                                        class="card-title fw-bold text-sm-center"
+                                    >
+                                        &nbsp;Case Study
+                                    </h4>
+                                    <p class="card-text">
+                                        &nbsp; &nbsp; A categoria de Case Study
+                                        consiste em encontrar uma solução
+                                        teórica para um problema de tecnologia
+                                        através da elaboração de uma possível
+                                        estratégia de resolução ao problema
+                                        abordado, num preazo de 24 horas. A
+                                        equipa deve usar tecnologia existente
+                                        para desenvolver a sua solução.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-3">
-                    <div class="card h-100">
-                        <img src="./images/activities/ebec_td.jpg" class="card-img-top" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title text-center">Team Design</h5>
-                            <p class="card-text">&nbsp; &nbsp;Na categoria de Team Design, cada equipa resolve
-                                um desafio técnico através da construção de um protótipo com tempo e recursos limitados.
-                                <br>&nbsp; &nbsp;No fim as equipas apresentam o
-                                protótipo, que tem de executar as tarefas requeridas, sendo avaliado pelo júri.
-                            </p>
+                    <div class="col-md-12 col-lg-12 col-xl-6 mb-3">
+                        <div class="card">
+                            <div class="row">
+                                <img
+                                    src="./images/designs/teaching.png"
+                                    class="col-5 ps-5 align-self-center d-none d-sm-block"
+                                    alt=""
+                                />
+                                <div
+                                    class="col-4 card-body d-flex flex-column m-4"
+                                >
+                                    <h4
+                                        class="card-title fw-bold text-sm-center"
+                                    >
+                                        &nbsp;Innovative Design
+                                    </h4>
+                                    <p class="card-text">
+                                        &nbsp; &nbsp;Na categoria de Innovative
+                                        Design, a equipa deve combinar
+                                        criatividade e conhecimento para
+                                        desenvolver novos designs tecnológicos,
+                                        ou melhorar existentes, num prazo de 24
+                                        horas, elaborando uma apresentação ao
+                                        júri. A apresentação ao júri deve
+                                        demonstrar o impacto técnico, social,
+                                        ambiental e económico da sua ideia.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 offset-lg-2 mb-3">
-                    <div class="card h-100">
-                        <img src="./images/activities/ebec_mc.jpg" class="card-img-top" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title text-center">Mini-Competição</h5>
-                            <p class="card-text">&nbsp; &nbsp;As mini-competições são competições curtas, com duração
-                                entre
-                                30 a 60 minutos que ocorrem nos intervalos das competições principais (Case Study e Team
-                                Design).
-                                <br>&nbsp; &nbsp;Estas mini-competições são opcionais e os vencedores recebem pontos que
-                                podem
-                                influenciar a pontuação final na EBEC.
-                                <br>&nbsp; &nbsp;Podem existir até 3 mini-competições na EBEC.
-                            </p>
+                    <div class="col-md-12 col-lg-12 col-xl-6 mb-3">
+                        <div class="card">
+                            <div class="row">
+                                <img
+                                    src="./images/designs/competition.png"
+                                    class="col-5 ps-5 align-self-center d-none d-sm-block"
+                                    alt=""
+                                />
+                                <div
+                                    class="col-4 card-body d-flex flex-column m-4"
+                                >
+                                    <h4
+                                        class="card-title fw-bold text-sm-center"
+                                    >
+                                        &nbsp;Mini-Competição
+                                    </h4>
+                                    <p class="card-text">
+                                        &nbsp; &nbsp;As mini-competições são
+                                        competições curtas, com duração entre 30
+                                        a 60 minutos que ocorrem nos intervalos
+                                        das competições principais (Case Study e
+                                        Innovative Design). <br />Podem existir
+                                        até 3 mini-competições na EBEC.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-3 ">
-                    <div class="card h-100">
-                        <img src="./images/activities/ebec_ws.jpg" class="card-img-top" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title text-center">Workshops</h5>
-                            <p class="card-text">&nbsp; &nbsp;Os Workshops de Hard-Skills e/ou Soft-Skills ocorrem antes do evento e
-                                constituem um complemento ao evento.
-                                <br>&nbsp; &nbsp;Um destes workshops será sobre o software a utilizar na competição de
-                                Team Design.
-                            </p>
+                    <div class="col-md-12 col-lg-12 col-xl-6 mb-3">
+                        <div class="card">
+                            <div class="row">
+                                <!-- https://www.vecteezy.com/free-vector/workshop-icon -->
+                                <img
+                                    src="./images/designs/workshops.png"
+                                    class="col-5 ps-5 align-self-center d-none d-sm-block"
+                                    alt=""
+                                />
+                                <div
+                                    class="col-4 card-body d-flex flex-column m-4"
+                                >
+                                    <h4
+                                        class="card-title fw-bold text-sm-center"
+                                    >
+                                        &nbsp;Workshops
+                                    </h4>
+                                    <p class="card-text">
+                                        &nbsp; &nbsp;Os workshops de hard skills
+                                        e/ou soft skills ocorrem antes do evento
+                                        e sao um complemento a estes. <br />
+                                        Um destes workshops será sobre gestão de
+                                        tempo, trabalho em equipa e como fazer
+                                        um pitch.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="stats">
-        <div class="container py-3">
-            <h1 class="text-center my-3">Estatísticas da EBEC</h1>
-            <div class="row mb-3">
-                <div class="offset-md-1 col-md-2">
-                    <i class="icons fas fa-briefcase"></i>
-                </div>
-                <div class="col-md-3">
-                    <p class="title-stats mb-0">Competição de Engenharia</p>
-                    <p class="text-muted">Tipo de evento</p>
-                </div>
-                <div class="col-md-2">
-                    <i class="icons fas fa-calendar-alt"></i>
-                </div>
-                <div class="col-md-3">
-                    <p class="title-stats mb-0">Fevereiro-Março 2022</p>
-                    <p class="text-muted">Data dos Workshops</p>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="offset-md-1 col-md-2">
-                    <i class="icons far fa-calendar-alt"></i>
-                </div>
-                <div class="col-md-3">
-                    <p class="title-stats mb-0">Fevereiro-Março 2022</p>
-                    <p class="text-muted">Data da Competição</p>
-                </div>
-                <div class="col-md-2">
-                    <i class="icons fas fa-map-marker-alt"></i>
-                </div>
-                <div class="col-md-3">
-                    <p class="title-stats mb-0">A definir</p>
-                    <p class="text-muted">Local</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="offset-md-1 col-md-2">
-                    <i class="icons fas fa-users"></i>
-                </div>
-                <div class="col-md-3">
-                    <p class="title-stats mb-0">Cerca de 68</p>
-                    <p class="text-muted">Número de participantes</p>
-                </div>
-                <div class="col-md-2">
-                    <i class="icons fas fa-clock"></i>
-                </div>
-                <div class="col-md-3">
-                    <p class="title-stats mb-0">24 horas</p>
-                    <p class="text-muted">Duração da Competição Principal</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section id="stats">
+            <div class="container py-3">
+                <h1 class="text-center my-3 fw-bold">
+                    Detalhes BEST Inside View
+                </h1>
+                <div class="row mb-5 ms-5 justify-content-center">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="d-flex flex-row">
+                            <div class="arround-icon">
+                                <i class="icons fas fa-calendar-alt ali"></i>
+                            </div>
 
-    <section id="previous-editions">
-        <div class="container text-center pb-4">
-            <h1 class="text-center py-3 title">Edições Passadas</h1>
-            <div id="prevEdCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/previous-editions/ebec1-min.jpg">
+                            <div>
+                                <h4 class="card-text mt-2">4 a 7 de Abril</h4>
+                                <p class="card-text">Workshops</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/previous-editions/ebec2-min.jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/previous-editions/ebec21-min.jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/previous-editions/ebec22-min.jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/previous-editions/ebec23-min.jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/previous-editions/ebec24-min.jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/previous-editions/ebec3-min.jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/previous-editions/ebec4-min.jpg">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#prevEdCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#prevEdCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </section>
 
-    <section id="packages-ebec">
-        <div class="container text-center">
-            <h1 class="text-center my-3">Veja os nossos pacotes</h1>
-            <p class="lead"><u>Nota:</u> Se não consegue visualizar toda a tabela, veja esta informação no nosso <a
-                    href="#booklet">booklet</a></p>
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover table-sm">
-                    <thead>
-                        <tr>
-                            <th>Pacotes</th>
-                            <th>Técnico Exclusive*</th>
-                            <th>Team Design</th>
-                            <th>Case Study</th>
-                            <th>Mini Competition</th>
-                            <th>Workshop</th>
-                            <th>Basic</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Realização do Team Design</th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                        </tr>
-                        <tr>
-                            <th>Realização do Case Study</th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                        </tr>
-                        <tr>
-                            <th>Realização da Mini-Competição</th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                        </tr>
-                        <tr>
-                            <th>Realização de Workshops</th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                        </tr>
-                        <tr>
-                            <th>Participação no Júri</th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                        </tr>
-                        <tr>
-                            <th>Contactos dos alunos</th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="check fas fa-check"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                            <th><i class="not-check fas fa-times"></i></th>
-                        </tr>
-                        <tr>
-                            <th>Publicidade e promoção da empresa no meio estudantil</th>
-                            <th>Máxima</th>
-                            <th>Máxima</th>
-                            <th>Máxima</th>
-                            <th>Bastante</th>
-                            <th>Standard</th>
-                            <th>Standard</th>
-                        </tr>
-                        <tr>
-                            <th>Preço do Pacote 1 ano</th>
-                            <th>3000€</th>
-                            <th>1900€</th>
-                            <th>1900€</th>
-                            <th>650€</th>
-                            <th>350€</th>
-                            <th>150€</th>
-                        </tr>
-                        <tr>
-                            <th>Preço do Pacote 2 anos <b>(Desconto 10%)</b></th>
-                            <th><strike>6000€</strike><br>5400€</th>
-                            <th><strike>3800€</strike><br>3420€</th>
-                            <th><strike>3800€</strike><br>3420€</th>
-                            <th><strike>1300€</strike><br>1152€</th>
-                            <th><strike>700€</strike><br>630€</th>
-                            <th><strike>300€</strike><br>270€</th>
-                        </tr>
-                        <tr>
-                            <th>Preço do Pacote 3 anos <b>(Desconto 20%)</b></th>
-                            <th><strike>9000€</strike><br>7200€</th>
-                            <th><strike>5700€</strike><br>4560€</th>
-                            <th><strike>5700€</strike><br>4560€</th>
-                            <th><strike>1950€</strike><br>1536€</th>
-                            <th><strike>1050€</strike><br>840€</th>
-                            <th><strike>450€</strike><br>360€</th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p>* - Exclusivo à Rede de Parceiros do Técnico</p>
-        </div>
-    </section>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="d-flex flex-row">
+                            <div class="arround-icon">
+                                <i
+                                    class="icons far fa-calendar-alt ali aria"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4 class="card-text mt-2">9 a 10 de Abril</h4>
+                                <p class="card-text">Competição</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="d-flex flex-row">
+                            <div class="arround-icon">
+                                <i class="icons fas fa-users ali"></i>
+                            </div>
+                            <div>
+                                <h4 class="card-text mt-2">~80</h4>
+                                <p class="card-text">
+                                    Participantes de outras edições
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="d-flex flex-row">
+                            <div class="arround-icon">
+                                <i class="icons fas fa-map-marked-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="card-text mt-2">
+                                    Instituto Superior Técnico
+                                </h4>
+                                <p class="card-text">Local</p>
+                            </div>
+                        </div>
+                    </div>
 
-    <section id="partners-ebec">
-        <div class="container text-center">
-            <h1 class="title text-center py-3">Conheça os nossos parceiros em edições passadas da EBEC!</h1>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.mckinsey.com/pt">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/mckinsey.png">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="d-flex flex-row">
+                            <div class="arround-icon">
+                                <i class="icons fas fa-briefcase"></i>
+                            </div>
+                            <div>
+                                <h4 class="card-text mt-2">
+                                    Competição de Engenharia
+                                </h4>
+                                <p class="card-text">Tipo de evento</p>
+                            </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.bosch.com/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/bosch.png">
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="d-flex flex-row">
+                            <div class="arround-icon">
+                                <i class="icons fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="card-text mt-2">24h</h4>
+                                <p class="card-text">
+                                    Duração da competição principal
+                                </p>
+                            </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.novabase.pt/pt">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/novabase.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.ceiia.com/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/ceiia.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.opensoft.pt/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/opensoft.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.premium-minds.com/">
-                        <div class="card">
-                            <img class="big card-logo" src="../biv/images/partners/premiumminds.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.olxgroup.com/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/olxgroup.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www2.deloitte.com/pt/pt.html">
-                        <div class="card">
-                            <img class="big card-logo logo-smaller" src="../biv/images/partners/deloitte.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="http://www.energetus.pt/">
-                        <div class="card">
-                            <img class="big card-logo" src="../biv/images/partners/Energetus.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.jll.pt/">
-                        <div class="card">
-                            <img class="big card-logo" src="../biv/images/partners/jlltetris.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="http://estrutovia.pt/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/estrutovia_1.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.bounceinc.pt/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/bounce.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 offset-lg-2 mb-3">
-                    <a href="https://www.a1v2.pt/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/A1V2.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-3">
-                    <a href="https://www.tpf.pt/">
-                        <div class="card">
-                            <img class="big card-logo" src="images/partners/tpf.png">
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="testimonies">
-        <div class="container">
-            <h1 class="text-center my-3">Alguns testemunhos dos nossos parceiros, participantes e júri</h1>
-            <div class="row">
-                <div class="col-sm-10 center">
-                    <div class="bubble mb-3">
-                        <p class="mb-0">&nbsp; &nbsp;As atividades do BEST proporcionam aos alunos de engenharia
-                            contacto com situações
-                            desafiantes que lhes permitem desenvolver competências fora do ambiente académico.
-                            Os alunos com os quais temos contacto são sempre dinâmicos, dedicados e proactivos
-                            na procura de mais oportunidades de aprendizagem.
-                            <br><b>&nbsp; &nbsp;A European BEST Engineering Competition (EBEC) testa as capacidades dos
-                                estudantes
-                                de resolver problemas e trabalhar em equipa.</b>
-                            <br>&nbsp; &nbsp;Para além de procurarem ligar a universidade às empresas, as atividades do
-                            BEST
-                            atraem alunos que procuram enriquecer as suas competências fora das áreas de engenharia.
-                            <br>&nbsp; &nbsp;No futuro, a Mckinsey pretende participar novamente numa Case Competition e
-                            noutros.
+        <section id="previous-editions">
+            <div class="container text-center pb-4">
+                <h1 class="text-center py-3 title">Edições Passadas</h1>
+                <div
+                    id="prevEdCarousel"
+                    class="carousel slide carousel-fade"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/previous-editions/ebec1-min.jpg" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/previous-editions/ebec2-min.jpg" />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/previous-editions/ebec21-min.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/previous-editions/ebec22-min.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/previous-editions/ebec23-min.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/previous-editions/ebec24-min.jpg"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/previous-editions/ebec3-min.jpg" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/previous-editions/ebec4-min.jpg" />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#prevEdCarousel"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#prevEdCarousel"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages-ebec">
+            <div class="container text-center my-5">
+                <h1 class="text-center my-3 fw-bold">Veja os nossos pacotes</h1>
+                <div class="table-responsive text-uppercase">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Inclui</th>
+                                <th>Case Study</th>
+                                <th>Innovative design</th>
+                                <th>Mini Competition</th>
+                                <th>Networking</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Script</th>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                            </tr>
+                            <tr>
+                                <th>Júri</th>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                            </tr>
+                            <tr>
+                                <th>Publicidade e Promoção</th>
+                                <td class="text">Exclusiva</td>
+                                <td class="text">Exclusiva</td>
+                                <td class="text">Avançada</td>
+                                <td class="text">Básica</td>
+                            </tr>
+                            <tr>
+                                <th>Workshops</th>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                            </tr>
+                            <tr>
+                                <th>Apresentação da Empresa</th>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                                <td><i class="not-check fas fa-minus"></i></td>
+                            </tr>
+                            <tr>
+                                <th>Networking</th>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <th>CVs</th>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                                <td><i class="check fas fa-check"></i></td>
+                            </tr>
+                            <tr class="table-final-prices">
+                                <th>Preço do pacote</th>
+                                <td>2000€</td>
+                                <td>2000€</td>
+                                <td>750€</td>
+                                <td>600€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners-ebec">
+            <div class="container text-center">
+                <h1 class="title text-center py-3 fw-bold">
+                    Conheça os nossos parceiros em edições passadas da EBEC!
+                </h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.mckinsey.com/pt">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/mckinsey.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.bosch.com/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/bosch.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.novabase.pt/pt">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/novabase.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.ceiia.com/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/ceiia.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.opensoft.pt/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/opensoft.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.premium-minds.com/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="../biv/images/partners/premiumminds.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.olxgroup.com/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/olxgroup.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www2.deloitte.com/pt/pt.html">
+                            <div class="card">
+                                <img
+                                    class="big card-logo logo-smaller"
+                                    src="../biv/images/partners/deloitte.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="http://www.energetus.pt/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="../biv/images/partners/Energetus.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.jll.pt/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="../biv/images/partners/jlltetris.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="http://estrutovia.pt/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/estrutovia_1.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.bounceinc.pt/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/bounce.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-lg-2 mb-3">
+                        <a href="https://www.a1v2.pt/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/A1V2.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <a href="https://www.tpf.pt/">
+                            <div class="card">
+                                <img
+                                    class="big card-logo"
+                                    src="images/partners/tpf.png"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testemonies-ebec">
+            <div class="container testemonies">
+                <h2 class="text-center my-5 title fw-bold">
+                    Alguns testemunhos dos nossos parceiros, participantes e
+                    júri
+                </h2>
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide px-3"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div class="inside-carousel mb-5">
+                                <p class="mb-0">
+                                    &nbsp; &nbsp;As atividades do BEST
+                                    proporcionam aos alunos de engenharia
+                                    contacto com situações desafiantes que lhes
+                                    permitem desenvolver competências fora do
+                                    ambiente académico. Os alunos com os quais
+                                    temos contacto são sempre dinâmicos,
+                                    dedicados e proactivos na procura de mais
+                                    oportunidades de aprendizagem. <br /><b
+                                        >A European BEST Engineering Competition
+                                        (EBEC) testa as capacidades dos
+                                        estudantes de resolver problemas e
+                                        trabalhar em equipa.</b
+                                    >
+                                    <br />Para além de procurarem ligar a
+                                    universidade às empresas, as atividades do
+                                    BEST atraem alunos que procuram enriquecer
+                                    as suas competências fora das áreas de
+                                    engenharia. <br />No futuro, a Mckinsey
+                                    pretende participar novamente numa Case
+                                    Competition e noutros.
+                                </p>
+                                <br />
+                                <p class="mb-0 text-center fst-italic">
+                                    &nbsp; &nbsp; &nbsp;João Romão, Mckinsey and
+                                    Company
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="inside-carousel mb-5">
+                                <p class="mb-0">
+                                    &nbsp; &nbsp;Fui convidado para fazer parte
+                                    do júri de avaliação do BEST, o que
+                                    constituiu uma grande e agradável surpresa.
+                                    <br /><b
+                                        >A quantidade de equipas que trabalhou
+                                        durante largas horas na procura de
+                                        soluções para o problema que lhes foi
+                                        colocado, deixou todos com o sentimento
+                                        do esforço aplicado pelos estudantes.</b
+                                    >
+                                    Da minha parte, foi mais uma prova da
+                                    capacidade de trabalho demonstrada pelos
+                                    alunos e que é por mim comprovada no
+                                    dia-a-dia como docente.
+                                    <br />Quero deixar também um elogio à
+                                    organização pelo evento que proporcionou.
+                                    Visivelmente, todos os envolvidos estavam
+                                    esgotados no final.
+                                </p>
+                                <br />
+                                <p class="mb-0 text-center fst-italic">
+                                    &nbsp; &nbsp;&nbsp;Luís Sousa, Professor
+                                    Auxiliar, Departamento de Engenharia
+                                    Mecânica, IST
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <div class="inside-carousel mb-5">
+                                <p class="mb-0">
+                                    &nbsp; &nbsp;<b
+                                        >Sendo uma pessoa que já participou em
+                                        vários hackatons e maratonas de
+                                        engenharia, posso garantir que a EBEC
+                                        foi sem dúvida o mais estimulante, tendo
+                                        participado duas vezes na edição local e
+                                        uma na edição nacional</b
+                                    >. <br />Foi uma competição que me deu a
+                                    oportunidade de pôr à prova qualidades que
+                                    nem sabia que tinha até ao momento da
+                                    competição. A experiência de estar fechado
+                                    24 horas numa sala com 3 grandes amigos,
+                                    todos com o mesmo objetivo é uma experiência
+                                    espetacular, cheio de momentos de tensão,
+                                    mas também momentos hilariantes. <br />É uma
+                                    experiência que qualquer estudante de
+                                    engenharia devia experimentar, sendo uma
+                                    ótima chance para criar novas amizades com
+                                    elementos de outras equipas e mesmo do
+                                    staff, bem como para ficar a conhecer um
+                                    pouco melhor o que é o BEST e das atividades
+                                    que oferecem. 10/10, recomendo!
+                                </p>
+                                <br />
+                                <p class="mb-0 text-center fst-italic">
+                                    &nbsp; &nbsp;&nbsp;André Vieira, Engenharia
+                                    Biomédica - Participante da EBEC 2019 e 2017
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
+                    >
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                    >
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="booklet">
+            <div class="container p-3">
+                <h2 class="text-center fw-bold">Interessado em saber mais?</h2>
+                <div class="text-center">
+                    <a
+                        class="p-3 fw-bold button text-uppercase"
+                        href="./Booklet EBEC'22.pdf"
+                        >Clique aqui!</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <h2 class="text-center mb-3 mt-3 fw-bold">Contacte-nos!</h2>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="offset-md-0 offset-lg-2 col-lg-4 col-sm-6 mb-3">
+                        <img
+                            class="rounded-circle"
+                            src="../images/team/MartaMartinho.jpg"
+                        />
+                        <h5 class="mt-3 title fw-bold">
+                            Marta Santos Martinho
+                        </h5>
+                        <p class="text">
+                            Coordenadora de Relações Empresariais
+                            <br />
+                            (+351) 967 542 262
+                            <br />
+                            Ciência Política e Relações Internacionais
+                            <br />
+                            <a
+                                class="mail"
+                                href="mailto:martassmartinho@gmail.com"
+                            >
+                                <svg
+                                    width="2em"
+                                    height="2em"
+                                    viewBox="0 0 16 16"
+                                    class="bi bi-envelope"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+                                    />
+                                </svg>
+                                martassmartinho@gmail.com
+                            </a>
+                            <br />
+                            <a
+                                class="linkedin"
+                                href="https://www.linkedin.com/in/marta-santos-martinho/"
+                                ><img
+                                    src="../images/footer-logos/linkedin.svg"
+                                    height="30"
+                            /></a>
                         </p>
-                        <p class="mb-0 text-center">&nbsp; &nbsp;---- João Romão, <i>Mckinsey and Company</i></p>
                     </div>
-                    <div class="bubble mb-3">
-                        <p class="mb-0">&nbsp; &nbsp;Fui convidado para fazer parte do júri de avaliação do BEST, o que
-                            constituiu uma grande e agradável surpresa.
-                            <br>&nbsp; &nbsp;<b>A quantidade de equipas que trabalhou durante largas
-                                horas na procura de soluções para o problema que lhes foi colocado, deixou todos com
-                                o sentimento do esforço aplicado pelos estudantes.</b> Da minha parte, foi mais uma
-                            prova da
-                            capacidade de trabalho demonstrada pelos alunos e que é por mim comprovada
-                            no dia-a-dia como docente.
-                            <br>&nbsp; &nbsp;Quero deixar também um elogio à organização pelo evento que proporcionou.
-                            Visivelmente,
-                            todos os envolvidos estavam esgotados no final.”
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                        <img
+                            class="rounded-circle"
+                            src="../images/team/inesfigueirede.jpeg"
+                        />
+                        <h5 class="mt-3 title fw-bold">
+                            Maria Inês Figueiredo
+                        </h5>
+                        <p class="text">
+                            Responsável de Relações Empresariais da EBEC
+                            <br />
+                            (+351) 960 470 029
+                            <br />
+                            Engenharia Eletrotécnica e de Computadores
+                            <br />
+                            <a
+                                class="mail"
+                                href="mailto:maria.ines.figueiredo@best-eu.org"
+                            >
+                                <svg
+                                    width="2em"
+                                    height="2em"
+                                    viewBox="0 0 16 16"
+                                    class="bi bi-envelope"
+                                    fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+                                    />
+                                </svg>
+                                maria.ines.figueiredo@best-eu.org
+                            </a>
+                            <br />
+                            <a
+                                class="linkedin"
+                                href="https://www.linkedin.com/in/ana-isabel-ventura/"
+                                ><img
+                                    src="../images/footer-logos/linkedin.svg"
+                                    height="30"
+                            /></a>
                         </p>
-                        <p class="mb-0 text-center">&nbsp; &nbsp;---- Luís Sousa, Professor Auxiliar - <i>Departamento
-                                de Engenharia Mecânica, IST</i></p>
                     </div>
-                    <div class="bubble mb-3">
+                </div>
+            </div>
+        </section>
+
+        <footer class="pb-3">
+            <div class="container">
+                <div
+                    class="d-flex justify-content-between align-items-center flex-column flex-md-row border-bottom border-top py-2"
+                >
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/bestlisboa/"
+                                ><img
+                                    src="../images/footer-logos/facebook.svg"
+                                    height="50"
+                            /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/best.lisbon"
+                                ><img
+                                    src="../images/footer-logos/instagram.svg"
+                                    height="50"
+                            /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="https://www.linkedin.com/company/best-lisboa/"
+                                ><img
+                                    src="../images/footer-logos/linkedin.svg"
+                                    height="50"
+                            /></a>
+                        </li>
+                    </ul>
+                    <div class="flex-column text-center">
+                        <a href="http://best.tecnico.ulisboa.pt/"
+                            ><img
+                                src="../images/footer-logos/best_logo.png"
+                                class="mb-2"
+                                height="70"
+                        /></a>
                         <p class="mb-0">
-                            &nbsp; &nbsp;<b>Sendo uma pessoa que já participou em vários hackatons e maratonas de
-                                engenharia, posso garantir que a EBEC foi sem dúvida o mais estimulante, tendo
-                                participado duas vezes na edição local e uma na edição nacional</b>.
-                            <br>&nbsp; &nbsp;Foi uma competição que me deu a oportunidade de pôr à prova qualidades que
-                            nem sabia
-                            que tinha até ao momento da competição. A experiência de estar fechado 24
-                            horas numa sala com 3 grandes amigos, todos com o mesmo objetivo é uma experiência
-                            espetacular, cheio de momentos de tensão, mas também momentos hilariantes.
-                            <br>&nbsp; &nbsp;É uma experiência que qualquer estudante de engenharia devia experimentar,
-                            sendo uma ótima chance para criar novas amizades com elementos
-                            de outras equipas e mesmo do staff, bem como para ficar a conhecer um pouco melhor
-                            o que é o BEST e das atividades que oferecem. 10/10, recomendo!”
-                        </p>
-                        <p class="mb-0 text-center">&nbsp; &nbsp;---- André Vieira, Engenharia Biomédica -
-                            <i>Participante da EBEC 2019 e 2017</i>
+                            Avenida Rovisco Pais, 1049-001 Lisboa, Portugal
                         </p>
                     </div>
+                    <a class="nav-link" href="mailto:lisbon@best-eu.org">
+                        <svg
+                            width="2em"
+                            height="2em"
+                            viewBox="0 0 16 16"
+                            class="bi bi-envelope"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+                            />
+                        </svg>
+                        lisbon@best-eu.org
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p class="mb-0 mt-2 small text-muted">
+                        © 2021 BEST Lisboa. Todos os direitos reservados.
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <section id="booklet">
-        <div class="container text-center">
-            <div class="row py-lg-5">
-                <div class="col-lg-10 mx-auto cover-card rounded pt-2 cover-card">
-                    <h1 class="text-center py-3">Interessado em saber mais?</h1>
-                    <p class="lead">O nosso booklet da edição de 2021 da EBEC tem toda a informação
-                        detalhada.<br>Conheça
-                        as
-                        nossas propostas de colaboração na página 8.</p>
-                    <iframe class="booklet-pdf"
-                        src="https://drive.google.com/file/d/1dZkX97JQMuggrdErSOa8UsPSgYwYS5Ox/preview"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="team">
-        <h1 class="text-center mb-3 mt-3">Contacte-nos!</h1>
-        <div class="container text-center">
-          <div class="row">
-            <div class="offset-md-0 offset-lg-2 col-lg-4 col-sm-6 mb-3">
-              <img class="rounded-circle" src="../images/team/Carlos.jpg">
-              <h5 class="mt-3 title">Carlos Antunes</h5>
-              <p class="text">
-                Coordenador de Relações Empresariais
-                <br>
-                (+351) 910 713 494
-                <br>
-                Engenharia Eletrotécnica e de Computadores
-                <br>
-                <a class="mail" href="mailto:carlos.antunes@best-eu.org">
-                  <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                  </svg>
-                  carlos.antunes@best-eu.org
-                </a>
-                <br>
-                <a class="linkedin" href="https://www.linkedin.com/in/carlos-valdes-antunes/"><img src="../images/footer-logos/linkedin.svg" height="30"></a>
-              </p>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-3">
-              <img class="rounded-circle" src="../images/team/Ana.jpg">
-              <h5 class="mt-3 title">Ana Ventura</h5>
-              <p class="text">Presidente
-                <br>
-                (+351) 911 781 354
-                <br>
-                Engenharia Eletrotécnica e de Computadores
-                <br>
-                <a class="mail" href="mailto:ana.isabel.ventura@best-eu.org">
-                  <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                  </svg>
-                  ana.isabel.ventura@best-eu.org
-                </a>
-                <br>
-                <a class="linkedin" href="https://www.linkedin.com/in/ana-isabel-ventura/"><img src="../images/footer-logos/linkedin.svg" height="30"></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    <footer class="pb-3">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center flex-column flex-md-row border-bottom border-top py-2">
-                <ul class="nav">
-                    <li class="nav-item"><a href="https://www.facebook.com/bestlisboa/"><img
-                                src="../images/footer-logos/facebook.svg" height="50"></a></li>
-                    <li class="nav-item"><a href="https://www.instagram.com/best.lisbon"><img
-                                src="../images/footer-logos/instagram.svg" height="50"></a></li>
-                    <li class="nav-item"><a href="https://www.linkedin.com/company/best-lisboa/"><img
-                                src="../images/footer-logos/linkedin.svg" height="50"></a></li>
-                </ul>
-                <div class="flex-column text-center">
-                    <a href="http://best.tecnico.ulisboa.pt/"><img src="../images/footer-logos/best_logo.png"
-                            class="mb-2" height="70"></a>
-                    <p class="mb-0">Avenida Rovisco Pais, 1049-001 Lisboa, Portugal </p>
-                </div>
-                <a class="nav-link" href="mailto:lisbon@best-eu.org">
-                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                    </svg>
-                    lisbon@best-eu.org
-                </a>
-            </div>
-            <div class="d-flex justify-content-center">
-                <p class="mb-0 mt-2 small text-muted">© 2021 BEST Lisboa. Todos os direitos reservados.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
-</body>
-
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

@@ -3,7 +3,7 @@ header {
 }
 
 header nav {
-  background-color: rgba(238, 162, 37, 0.9) !important;
+  background-color: #efa420 !important;
 }
 
 header nav li:hover {
@@ -68,15 +68,15 @@ footer img:hover, footer .contact-us:hover {
 }
 
 .btn-primary {
-  background: rgba(238, 162, 37, 0.9) !important;
-  border-color: rgba(238, 162, 37, 0.9) !important;
+  background: #efa420 !important;
+  border-color: #efa420 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
 .btn-primary:hover {
-  background: rgba(128, 83, 10, 0.9) !important;
-  border-color: rgba(128, 83, 10, 0.9) !important;
+  background: #7e5409 !important;
+  border-color: #7e5409 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
@@ -115,22 +115,18 @@ footer img:hover, footer .contact-us:hover {
   background-color: rgba(255, 154, 0, 0.2);
 }
 
-#packages-ebec .check,
 #packages-oc .check {
   color: green;
 }
 
-#packages-ebec .not-check,
 #packages-oc .not-check {
   color: red;
 }
 
-#packages-ebec table tbody tr:nth-child(odd),
 #packages-oc table tbody tr:nth-child(odd) {
   background-color: rgba(102, 102, 102, 0.2);
 }
 
-#packages-ebec table thead tr,
 #packages-oc table thead tr {
   background-color: rgba(255, 154, 0, 0.2);
 }
@@ -138,7 +134,7 @@ footer img:hover, footer .contact-us:hover {
 #partners-biv,
 #partners-ebec,
 #partners-oc {
-  background: rgba(238, 162, 37, 0.9);
+  background: #efa420;
 }
 
 #partners-biv .title,
@@ -195,27 +191,12 @@ footer img:hover, footer .contact-us:hover {
   height: 80px;
 }
 
-#events-ebec,
 #events-oc {
   background: url(../images/biv-activities.jpg) no-repeat center center/cover;
   position: relative;
   z-index: 1;
 }
 
-#events-ebec:before,
-#events-oc:before {
-  background-color: rgba(128, 83, 10, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  content: "";
-  z-index: -1;
-}
-
-#events-ebec img,
 #events-oc img {
   margin: 0 auto;
   max-height: 300px;
@@ -223,33 +204,29 @@ footer img:hover, footer .contact-us:hover {
   max-width: 100%;
 }
 
-#events-ebec .courses,
 #events-oc .courses {
   width: 400px;
   margin: 46px auto 46px auto;
   height: auto;
 }
 
-#events-ebec .title,
 #events-oc .title {
   color: #f7f7f7;
 }
 
-#events-ebec .card,
 #events-oc .card {
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-#events-ebec .card:hover,
 #events-oc .card:hover {
   background-color: #ffffff;
 }
 
 #testimonies .bubble {
   position: relative;
-  background: rgba(238, 162, 37, 0.9);
+  background: #efa420;
   color: white;
   border-radius: 0.4em;
   padding: 1rem;
@@ -258,11 +235,11 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #testimonies .bubble:hover {
-  background: rgba(128, 83, 10, 0.9);
+  background: #7e5409;
 }
 
 #testimonies .bubble:hover:after {
-  border-right-color: rgba(128, 83, 10, 0.9);
+  border-right-color: #7e5409;
 }
 
 #testimonies .bubble:after {
@@ -273,7 +250,7 @@ footer img:hover, footer .contact-us:hover {
   width: 0;
   height: 0;
   border: 65px solid transparent;
-  border-right-color: rgba(238, 162, 37, 0.9);
+  border-right-color: #efa420;
   border-left: 0;
   border-bottom: 0;
   margin-top: -32.5px;
@@ -284,28 +261,6 @@ footer img:hover, footer .contact-us:hover {
   margin: 0 auto;
 }
 
-#booklet {
-  background: url(../images/biv-booklet.jpg) repeat center center/cover;
-  position: relative;
-  z-index: 1;
-}
-
-#booklet:before {
-  background-color: rgba(128, 83, 10, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  content: "";
-  z-index: -1;
-}
-
-#booklet .cover-card {
-  background: rgba(255, 255, 255, 0.8);
-}
-
 @media only screen and (max-width: 768px) {
   #stats .col-md-3 {
     text-align: center;
@@ -314,28 +269,30 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #cover {
-  background: url(../images/ebec_cover.png) no-repeat center center/cover;
+  background: #f7f7f7;
   position: relative;
   z-index: 1;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#cover img {
-  margin: 0 auto;
-  max-height: 200px;
-  width: auto;
-  max-width: 100%;
+#cover .logo {
+  min-width: 300px;
+  width: 35vw;
+  height: auto;
 }
 
-#cover:before {
-  background-color: rgba(128, 83, 10, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  content: "";
-  z-index: -1;
+#cover .disclaimer {
+  color: #666666;
+}
+
+#cover .disclaimer h2 {
+  color: #666666;
+}
+
+#cover .disclaimer h4 {
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
 }
 
 #cover .cover-card {
@@ -357,7 +314,33 @@ footer img:hover, footer .contact-us:hover {
 }
 
 #events-ebec {
-  background: url(../images/ebec_activities.jpg) no-repeat center 25%/cover;
+  background: #f7f7f7;
+}
+
+#events-ebec .card {
+  background: #efa420;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 10px;
+  min-height: 400px;
+  max-height: none;
+}
+
+#events-ebec p {
+  font-size: larger;
+  text-align: justify;
+  font-weight: 600;
+}
+
+#events-ebec h2 {
+  color: #666666;
+}
+
+#events-ebec img {
+  width: auto;
+  height: auto;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 #previous-editions {
@@ -366,20 +349,9 @@ footer img:hover, footer .contact-us:hover {
   z-index: 1;
 }
 
-#previous-editions:before {
-  background-color: rgba(128, 83, 10, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  content: "";
-  z-index: -1;
-}
-
 #previous-editions .title {
-  color: white;
+  color: #f7f7f7;
+  font-weight: bold;
 }
 
 #previous-editions .container {
@@ -392,13 +364,183 @@ footer img:hover, footer .contact-us:hover {
   max-height: 600px;
   width: auto;
   max-width: 100%;
+  border: 4px solid #f7f7f7;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#stats {
+  background-color: #f7f7f7;
+}
+
+#stats h1 {
+  color: #666666;
+}
+
+#stats h4,
+#stats p {
+  color: #666666;
+  font-weight: bold;
+}
+
+#stats .icons {
+  color: #efa420;
+  margin: 0.5rem;
+  padding: 0;
+  font-size: 4rem;
+}
+
+#stats .flex-row {
+  max-width: 100%;
+}
+
+#stats .arround-icon {
+  max-width: 110px;
+  min-width: 110px;
+}
+
+#stats .col-md-6 {
+  margin-bottom: 1em;
+}
+
+#packages-ebec {
+  background-color: #f7f7f7;
+}
+
+#packages-ebec h1 {
+  color: #efa420;
+}
+
+#packages-ebec .check {
+  font-size: large;
+  color: #666666;
+}
+
+#packages-ebec .not-check {
+  font-size: large;
+  color: #efa420;
+}
+
+#packages-ebec .text {
+  color: #666666;
+  font-size: smaller;
+}
+
+#packages-ebec table {
+  overflow: hidden;
+  font-weight: bold;
+}
+
+#packages-ebec table tbody th,
+#packages-ebec table tbody td {
+  border-left: 2px solid #efa420;
+  border-right: 2px solid #efa420;
+}
+
+#packages-ebec table tbody th {
+  background-color: #f7f7f7;
+  color: #efa420;
+}
+
+#packages-ebec table thead tr {
+  background-color: #efa420;
+  color: #f7f7f7;
+}
+
+#packages-ebec table tbody tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+#packages-ebec .table-final-prices,
+#packages-ebec .table-prices {
+  border: 2px solid #efa420;
+}
+
+#packages-ebec .table-final-prices th,
+#packages-ebec .table-final-prices td,
+#packages-ebec .table-prices th,
+#packages-ebec .table-prices td {
+  color: #f7f7f7;
+  background-color: #efa420;
+}
+
+#testemonies-ebec {
+  color: #666666;
+}
+
+#testemonies-ebec h2 {
+  color: #efa420;
+}
+
+#testemonies-ebec .inside-carousel {
+  min-height: 360px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: justify;
+  font-size: larger;
+  font-weight: 600;
+}
+
+#testemonies-ebec .buttons {
+  color: #666666;
+}
+
+#testemonies-ebec .carousel-indicators button {
+  background-color: #666666;
+}
+
+#testemonies-ebec .carousel i {
+  font-size: 2rem;
+  color: #666666;
 }
 
 #previous-editions {
-  background: url(../images/prev_ed_ebec.jpg) repeat center 100%/cover;
+  background: #efa420;
 }
 
 #booklet {
-  background: url(../images/booklet_ebec.jpg) repeat center center/cover;
+  background: #efa420;
+  min-height: 180px;
+  padding-bottom: 2rem;
+}
+
+#booklet h2 {
+  color: #f7f7f7;
+  margin-bottom: 2.5rem;
+}
+
+#booklet .button {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #efa420;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  font-size: 20px;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+#booklet .button:hover {
+  background-color: #f7f7f7;
+  font-size: 22px;
+}
+
+#team {
+  color: #666666;
+}
+
+#team h2 {
+  color: #efa420;
+}
+
+#team a {
+  color: #efa420;
+}
+
+@media (max-width: 1200px) {
+  #events-ebec .card {
+    max-height: 300px;
+    min-height: none;
+  }
 }
 /*# sourceMappingURL=ebec_main.css.map */

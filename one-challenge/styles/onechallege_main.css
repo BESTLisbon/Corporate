@@ -115,22 +115,18 @@ footer img:hover, footer .contact-us:hover {
   background-color: rgba(1, 21, 38, 0.2);
 }
 
-#packages-ebec .check,
 #packages-oc .check {
   color: green;
 }
 
-#packages-ebec .not-check,
 #packages-oc .not-check {
   color: red;
 }
 
-#packages-ebec table tbody tr:nth-child(odd),
 #packages-oc table tbody tr:nth-child(odd) {
   background-color: rgba(217, 168, 126, 0.7);
 }
 
-#packages-ebec table thead tr,
 #packages-oc table thead tr {
   background-color: rgba(1, 21, 38, 0.2);
 }
@@ -195,27 +191,12 @@ footer img:hover, footer .contact-us:hover {
   height: 80px;
 }
 
-#events-ebec,
 #events-oc {
   background: url(../images/biv-activities.jpg) no-repeat center center/cover;
   position: relative;
   z-index: 1;
 }
 
-#events-ebec:before,
-#events-oc:before {
-  background-color: rgba(1, 11, 19, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  content: "";
-  z-index: -1;
-}
-
-#events-ebec img,
 #events-oc img {
   margin: 0 auto;
   max-height: 300px;
@@ -223,26 +204,22 @@ footer img:hover, footer .contact-us:hover {
   max-width: 100%;
 }
 
-#events-ebec .courses,
 #events-oc .courses {
   width: 400px;
   margin: 46px auto 46px auto;
   height: auto;
 }
 
-#events-ebec .title,
 #events-oc .title {
   color: #f7f7f7;
 }
 
-#events-ebec .card,
 #events-oc .card {
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-#events-ebec .card:hover,
 #events-oc .card:hover {
   background-color: #ffffff;
 }
@@ -282,28 +259,6 @@ footer img:hover, footer .contact-us:hover {
 
 #testimonies .center {
   margin: 0 auto;
-}
-
-#booklet {
-  background: url(../images/biv-booklet.jpg) repeat center center/cover;
-  position: relative;
-  z-index: 1;
-}
-
-#booklet:before {
-  background-color: rgba(1, 11, 19, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  content: "";
-  z-index: -1;
-}
-
-#booklet .cover-card {
-  background: rgba(255, 255, 255, 0.8);
 }
 
 @media only screen and (max-width: 768px) {

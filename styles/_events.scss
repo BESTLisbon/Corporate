@@ -32,7 +32,6 @@
     }
 }
 
-#packages-ebec,
 #packages-oc {
     .check {
         color: green;
@@ -83,11 +82,7 @@
     }
 }
 
-#events-ebec,
 #events-oc {
-    &:before {
-        @include backgroundImg($primary-color-hover);
-    }
     background: url(../images/biv-activities.jpg) no-repeat center center /
         cover;
     position: relative;
@@ -147,17 +142,6 @@
     }
 }
 
-#booklet {
-    &:before {
-        @include backgroundImg($primary-color-hover);
-    }
-    background: url(../images/biv-booklet.jpg) repeat center center / cover;
-    position: relative;
-    z-index: 1;
-    .cover-card {
-        background: rgba(255, 255, 255, 0.8);
-    }
-}
 
 @media only screen and (max-width: 768px) {
     #stats {
